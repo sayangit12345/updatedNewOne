@@ -1,0 +1,34 @@
+.user-posts-list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.products-error-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.product-failure-heading-text {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  color: #262626;
+}
+.retry-button {
+  background-color: #4094ef;
+  color: #ffffff;
+  font-size: 15px;
+  height: 40px;
+  width: 150px;
+  border-width: 0px;
+  border-radius: 8px;
+}

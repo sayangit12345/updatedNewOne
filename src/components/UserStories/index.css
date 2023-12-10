@@ -1,0 +1,37 @@
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.slick-container {
+  width: 80%;
+  max-width: 1200px;
+  margin-top: 10px;
+}
+.logo-image {
+  margin: 0px 10px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+}
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+.slick-item {
+  display: flex;
+  flex-direction: row;
+}
+.logo-heading {
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-size: 15px;
+}

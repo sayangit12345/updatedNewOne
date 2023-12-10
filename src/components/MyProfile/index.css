@@ -1,0 +1,139 @@
+.myprofile-image {
+  height: 180px;
+  width: 180px;
+  border-radius: 90px;
+}
+.myprofile-details-container {
+  display: flex;
+  align-items: center;
+  width: 1000px;
+}
+.myprofile-followers-container {
+  display: flex;
+  align-items: center;
+}
+.myprofile-followers {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+  margin-right: 10px;
+}
+
+.myprofile-stories-image {
+  height: 85px;
+  width: 85px;
+  border-radius: 45px;
+  margin-right: 10px;
+}
+
+.myprofile-stories-container {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  width: 1000px;
+  margin-top: 20px;
+  padding-left: 0;
+}
+
+.myprofile-posts-container {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  padding-left: 0;
+}
+
+.myprofile-posts-image {
+  height: 330px;
+  width: 330px;
+  margin-left: 10px;
+}
+.hr-line {
+  width: 1010px;
+  margin-left: 270px;
+}
+.all-myprofile-container {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.myprofile-header-followers-container {
+  margin-left: 30px;
+}
+.myprofile-name {
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 500;
+  color: #262626;
+}
+.span-element {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 300;
+  color: #262626;
+}
+
+.myprofile-followers {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+  color: #262626;
+}
+.myprofile-user-id {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 300;
+  color: #262626;
+}
+.post-image-container {
+  width: 1000px;
+  display: flex;
+  align-items: center;
+}
+.myprofile-posts-users-heading {
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: bold;
+  color: #262626;
+  margin-left: 8px;
+}
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.no-post-view-heading {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 300;
+  color: #262626;
+}
+.no-post-view-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.products-error-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.product-failure-heading-text {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  color: #262626;
+}
+.retry-button {
+  background-color: #4094ef;
+  color: #ffffff;
+  font-size: 15px;
+  height: 40px;
+  width: 150px;
+  border-width: 0px;
+  border-radius: 8px;
+}
