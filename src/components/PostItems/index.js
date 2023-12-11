@@ -39,7 +39,12 @@ const PostItems = props => {
     }
 
     const response = await fetch(likedPostUrl, options)
-    const fetchedData = await response.json()
+    const fetchedData = await response.json() 
+    if (fetchedData.message === 'Post has been liked') {
+      setLike(false)
+    } else {
+      setLike(true)
+    }
   }
 
   return (
